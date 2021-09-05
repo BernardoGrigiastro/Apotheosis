@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "apotheosis",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Apotheosis (Fabric Port)",
+  "description": "This is a port of the mod Apotheosis for Fabric 1.17.",
   "authors": [
-    "Me!"
+    "Andrew6rant (Andrew Grant)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Andrew6rant/Apotheosis-Fabric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/apotheosis/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "io.github.Andrew6rant.apotheosis.Apotheosis"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "apotheosis.mixins.json"
   ],
 
   "depends": {
